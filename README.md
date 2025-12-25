@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FinSight Frontend
 
-# Run and deploy your AI Studio app
+Money Manager – Frontend Application
 
-This contains everything you need to run your app locally.
+This repository contains the frontend for the **FinSight (Money Manager)** application.
+It requires the backend service to be running.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1UyPL8gbPCHfEjklRVPIEryyLnIW5qDVb
+---
+
+## Backend Setup (Required)
+
+Before running the frontend, clone and run the backend application from the link below:
+
+https://github.com/Shivtej28/FinSight-backend
+
+Follow the instructions in the backend repository to start the server.
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+- Node.js
+- npm
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+### Clone the Frontend Repository
+
+```bash
+git clone <FRONTEND_REPO_URL>
+cd <FRONTEND_PROJECT_FOLDER>
+```
+
+---
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### Run the Application
+
+```bash
+npm run dev
+```
+
+---
+
+## Access the Application
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+(The port may vary depending on your setup.)
+
+---
+
+## Notes
+
+- Make sure the backend server is running before using the frontend.
+- Configure backend API URLs using environment variables if required.
+
+---
+
+## Author
+
+Shivtej Deshmukh
