@@ -1,6 +1,6 @@
 
 
-const BASE_URL = 'http://127.0.0.1:8000'; 
+const BASE_URL = 'https://finsight-backend-q5lh.onrender.com'; 
 
 // Log the origin so the user can easily find it for their CORS configuration
 console.log(`%c[System] %cFrontend Origin: %c${window.location.origin}`, 
